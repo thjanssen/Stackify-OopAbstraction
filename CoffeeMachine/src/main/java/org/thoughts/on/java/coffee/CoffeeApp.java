@@ -18,6 +18,7 @@ public class CoffeeApp {
 		// brew a fresh coffee
 		try {
 			Coffee espresso = machine.brewCoffee(CoffeeSelection.ESPRESSO);
+			System.out.println("Coffee is ready!");
 		} catch (CoffeeException e) {
 			e.printStackTrace();
 		}
